@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         if (bmiResult != -1) {
             String bmiCat = health.determineCategory(bmiResult);
             String bmiRisk = health.determineHealthRisk(bmiResult);
-            resultText = "Your BMI index is " + String.format("%.2f", bmiResult) + "\nBMI category: " + bmiCat + "\nHealth Risk: " + bmiRisk;
+            resultText = "BMI index: " + String.format("%.2f", bmiResult) + "\nBMI category: " + bmiCat + "\nHealth Risk: " + bmiRisk;
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setTitle("BMI");

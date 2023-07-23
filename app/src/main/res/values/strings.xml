@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My BMI Calculator</string>
+    <string name="github_link">Visit GitHub</string>
+    <string name="link_description">Visit %s to open the GitHub page.</string>
 </resources>
